@@ -40,4 +40,4 @@ while act != "x":
     else:
         print("\tWrong choise!")
 
-#smth wrong
+#now it's ok
