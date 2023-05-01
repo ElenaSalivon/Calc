@@ -1,3 +1,5 @@
+import math
+
 def calc(action, arg1, arg2=0):
     match action:
         case "+":
