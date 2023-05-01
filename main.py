@@ -20,4 +20,4 @@ def calc(action, arg1, arg2=0):
             return math.sin(arg1)
         case "cos":
             return math.cos(arg1)
-#space for calculator
+#space for calculator 1
