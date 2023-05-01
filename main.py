@@ -21,3 +21,21 @@ def calc(action, arg1, arg2=0):
         case "cos":
             return math.cos(arg1)
 #space for calc
+
+
+#action for the body for Alpher
+
+act = ""
+while act != "x":
+    act = input("Choose action + - * / % sin cos (for exit - x): ")
+    if act == "sin" or act == "cos":
+        arg1 = int(input("\t Input X: "))
+        print("Result is:", calc(act, arg1))
+    elif act == "+" or act == "-" or act == "*" or act == "/" or act == "%":
+        arg1 = int(input("\t Input X: "))
+        arg2 = int(input("\t Input Y: "))
+        print("Result is:", calc(act, arg1, arg2))
+    else:
+        print("\tWrong choise!")
+
+#well done!!!:)
